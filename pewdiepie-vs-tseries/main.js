@@ -53,7 +53,7 @@ function updateSubcounts(){
     subgapOLD = subgap;
 
      setTimeout(function (){
-        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UC-lHJZR3Gqxm24_Vd_AJ5Yw', function(pewdiepieS) {
+        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UCucot-Zp428OwkyRm2I7v2Q', function(pewdiepieS) {
             pewdiepie = pewdiepieS;
          console.log("Getting pewdiepie's subs");
      });

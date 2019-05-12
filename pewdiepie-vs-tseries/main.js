@@ -60,7 +60,7 @@ function updateSubcounts(){
     }, 0);
 
     setTimeout(function (){
-        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UCq-Fj5jknLsUf-MWSy4_brA', function(tseriesS) {
+        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UC4qk9TtGhBKCkoWz5qGJcGg', function(tseriesS) {
             tseries = tseriesS;
             console.log("Getting tseries' subs");
      });

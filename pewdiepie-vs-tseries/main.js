@@ -53,14 +53,14 @@ function updateSubcounts(){
     subgapOLD = subgap;
 
      setTimeout(function (){
-        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UCucot-Zp428OwkyRm2I7v2Q', function(pewdiepieS) {
+        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UC4qk9TtGhBKCkoWz5qGJcGg', function(pewdiepieS) {
             pewdiepie = pewdiepieS;
          console.log("Getting pewdiepie's subs");
      });
     }, 0);
 
     setTimeout(function (){
-        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UC4qk9TtGhBKCkoWz5qGJcGg', function(tseriesS) {
+        $.getJSON('https://bastet.socialblade.com/youtube/lookup?query=UCucot-Zp428OwkyRm2I7v2Q', function(tseriesS) {
             tseries = tseriesS;
             console.log("Getting tseries' subs");
      });

@@ -1,3 +1,2 @@
 # g
-All generators
-pls dont steal api key pls
+James Charles VS Tati, original by ItsBrian

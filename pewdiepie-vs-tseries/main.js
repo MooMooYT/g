@@ -9,7 +9,6 @@ function startGen(){
     input = document.getElementById("input").value;
     if (input != "" && isRunning == "false"){
         URL = input;
-        alert("Generator started!");
         isRunning = "true";
         console.log("Set URL to: " + URL);
     }
